@@ -1,0 +1,29 @@
+# --- segredos: NUNCA versionar ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- banco de dados e dados de operação ---
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+backups/
+logs/
+*.log
+quant_audit_package/
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# --- Node / Next ---
+node_modules/
+.next/
+.next-build/
+*.tsbuildinfo
+.vercel/
